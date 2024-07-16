@@ -25,14 +25,6 @@ import { framer } from "./_framer";
 export default function Base() {
   const dispatch = useDispatch();
 
-  const LoadProperties = async () => {
-    const properties = await SearchProperties();
-    dispatch(loadProperties(properties));
-    dispatch(loadProperty(properties[0]));
-  };
-  useEffect(() => {
-    LoadProperties()
-  }, [])
   
   
   return (
