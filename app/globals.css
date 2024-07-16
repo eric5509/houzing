@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  font-size: 12px;
+  overflow-x: hidden;
+  background: whitesmoke;
+}
+.container{
+  max-width: 1500px;
+  padding-inline: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+.container2{
+  max-width: 1000px;
+  padding-inline: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+.container3{
+  max-width: 1100px;
+  padding-inline: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+.container4{
+  max-width: 1200px;
+  padding-inline: 10px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.noBar::-webkit-scrollbar{
+  display: none;
+}
+
+
+.bgblack{
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.5), rgba(0,0,0, 0.5));
+}
+
+.buysell{
+  background-image: url("/bbg.jpg");
+  border-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) fill 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explore{
+  background-image: url('https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=400');
+  border-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.2)) fill 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+a{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #010849;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff55;
+}

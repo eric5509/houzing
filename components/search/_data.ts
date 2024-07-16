@@ -1,0 +1,72 @@
+
+export const properties = [
+  {
+    title: "Charming Townhouse in Historic District",
+    address: "45 Elm Street, Old Town, UK",
+    location: "England, UK",
+    price: 380000,
+    type: "townhouse",
+    additionalConveniences: ["Parking", "Garden"],
+    bed: 3,
+    bath: 2,
+    garage: true,
+    details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, libero incidunt fugit sint reprehenderit reiciendis assumenda, blanditiis quaerat, rerum et laborum at porro omnis harum facilis. Atque mollitia perferendis doloribus.",
+    sqm: 150,
+    image: ["https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=400", "https://photos.zillowstatic.com/fp/805b1ab136802fda4898eb3581b3d64b-uncropped_scaled_within_1536_1152.webp", "https://photos.zillowstatic.com/fp/8fad622913f658f32305b256da8602e7-uncropped_scaled_within_1536_1152.webp", "https://photos.zillowstatic.com/fp/7bcc41b82ff99cd9e158008840b8e2e4-uncropped_scaled_within_1536_1152.webp"]
+  },
+  {
+    title: "Luxury Beachfront Villa",
+    address: "123 Palm Avenue, Tropical Island, Bali",
+    location: "Bali, Indonesia",
+    price: 650000,
+    type: "villa",
+    additionalConveniences: ["Private Beach", "Pool"],
+    bed: 4,
+    bath: 4,
+    details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, libero incidunt fugit sint reprehenderit reiciendis assumenda, blanditiis quaerat, rerum et laborum at porro omnis harum facilis. Atque mollitia perferendis doloribus.",
+    sqm: 300,
+    image: ["https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxob3VzZXxlbnwwfHwwfHx8MA%3D%3D", "https://photos.zillowstatic.com/fp/87f2bb19f4f5f8ce93da52fc9aa5704e-cc_ft_384.webp", "https://photos.zillowstatic.com/fp/42ef32319f38baa32a6648f6593236ee-cc_ft_768.webp", "https://photos.zillowstatic.com/fp/e96170e254dd0fbdef79e009fd65f86b-cc_ft_768.webp"]
+  },
+  {
+    title: "Modern Apartment in City Center",
+    address: "789 Maple Road, Downtown, Canada",
+    location: "Ontario, Canada",
+    price: 260000,
+    type: "apartment",
+    wifi: true,
+    pool: true,
+    additionalConveniences: ["Balcony", "Gym"],
+    bed: 2,
+    details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, libero incidunt fugit sint reprehenderit reiciendis assumenda, blanditiis quaerat, rerum et laborum at porro omnis harum facilis. Atque mollitia perferendis doloribus.",
+    bath: 1,
+    sqm: 80,
+    image: ["https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D", "https://images.unsplash.com/photo-1522444195799-478538b28823?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8"]
+  },
+  {
+    title: "Rustic Countryside Villa",
+    address: "321 Oak Lane, Rural Village, Italy",
+    location: "Tuscany, Italy",
+    price: 420000,
+    pool: true,
+    type: "villa",
+    additionalConveniences: ["Private Vineyard", "Guesthouse"],
+    details: "ewgwggrgrg Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, libero incidunt fugit sint reprehenderit reiciendis assumenda, blanditiis quaerat, rerum et laborum at porro omnis harum facilis. Atque mollitia perferendis doloribus.",
+    bed: 4,
+    bath: 3,
+    sqm: 220,
+    image: ["https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8", "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"]
+  },
+  {
+    title: "Spacious Loft in Arts District",
+    address: "567 Maple St., Creative Quarter, Australia",
+    location: "Melbourne, Australia",
+    price: 310000,
+    type: "loft",
+    additionalConveniences: ["High Ceilings", "Open Floor Plan"],
+    bed: 1,
+    details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, libero incidunt fugit sint reprehenderit reiciendis assumenda, blanditiis quaerat, rerum et laborum at porro omnis harum facilis. Atque mollitia perferendis doloribus.",
+    bath: 1,
+    sqm: 100,
+    image: ["https://plus.unsplash.com/premium_photo-1661964475795-f0cb85767a88?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhvdXNlfGVufDB8fDB8fHww", "https://plus.unsplash.com/premium_photo-1661963209358-0f4d5f509d10?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGhvdXNlfGVufDB8fDB8fHww", "https://images.unsplash.com/photo-1434434319959-1f886517e1fe?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdXNlfGVufDB8fDB8fHww"]
+  },
+]  
